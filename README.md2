@@ -1,0 +1,65 @@
+# Network Intrusion Detection System (NIDS)
+
+## Project Overview
+This project develops a Machine Learning based Network Intrusion Detection System to identify malicious and suspicious network traffic.
+
+The system is trained using the NSL-KDD dataset and applies classification algorithms to detect cyber attacks.
+
+---
+
+## Objectives
+- Analyze network traffic data
+- Detect malicious activity
+- Classify normal and attack traffic
+- Improve intrusion detection performance
+
+---
+
+## Dataset Used
+KDD Dataset
+
+Files:
+- KDDTrain+.txt
+- KDDTest+.txt
+
+---
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+
+---
+
+## Workflow
+1. Load dataset
+2. Data preprocessing
+3. Encode categorical values
+4. Train model
+5. Predict attacks
+6. Evaluate performance
+
+---
+
+## Model
+XGBoost Classifier
+
+---
+
+## Performance
+Accuracy Achieved:
+~72%
+
+---
+
+## Run Project
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run:
+
+python intrusion_detection.py
